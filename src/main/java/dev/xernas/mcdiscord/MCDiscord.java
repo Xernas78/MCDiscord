@@ -10,7 +10,7 @@ public final class MCDiscord extends JavaPlugin {
     @Override
     public void onEnable() {
         Bukkit.getScheduler().runTaskAsynchronously(this, () -> {
-            JDA jda = JDABuilder.createDefault("MTIwNzA0ODUxOTg2NTU5Nzk5NA.GlGt0-.tLgQfeOZ5expLAKKh9a0QIsU8hn2K37sua390A").build();
+            JDA jda = JDABuilder.createDefault("").build();
         });
 
     }
