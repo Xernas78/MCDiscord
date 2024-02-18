@@ -121,6 +121,7 @@ run/
 bin/
 gen/
 build/
+target/
 
 # Eclipse project files
 .classpath
@@ -136,6 +137,9 @@ local.properties
 #Gradle
 .gradle/
 gradle.properties
+
+#Maven
+dependency-reduced-pom.xml
 
 # Exceptions
 !gradle/wrapper/*.jar
