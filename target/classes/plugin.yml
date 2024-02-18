@@ -1,0 +1,8 @@
+name: MCDiscord
+version: '1.0.0'
+main: dev.xernas.mcdiscord.MCDiscord
+api-version: '1.18'
+load: STARTUP
+authors: [Xernas78]
+description: A Minecraft plugin to link discord members to your server
+website: xernas.dev
