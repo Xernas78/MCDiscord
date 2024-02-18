@@ -18,7 +18,8 @@ public class ConfigReader {
     }
 
     public Long getServerId() {
-        return config.getLong("bot.server-id");
+        long serverId = config.getLong("bot.server-id");
+        return serverId == 0 ? null : serverId;
     }
 
     public String getGroupFromRole(Long roleId) {

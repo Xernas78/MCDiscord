@@ -1,3 +1,9 @@
 dev\xernas\mcdiscord\config\ConfigReader.class
-dev\xernas\mcdiscord\listeners\jda\PrivateMessageSlashListener.class
+dev\xernas\mcdiscord\utils\HttpUtils.class
 dev\xernas\mcdiscord\MCDiscord.class
+dev\xernas\mcdiscord\utils\Queue$1.class
+dev\xernas\mcdiscord\utils\MinecraftUtils.class
+dev\xernas\mcdiscord\utils\Queue.class
+dev\xernas\mcdiscord\listeners\jda\GuildMessageSlashListener.class
+dev\xernas\mcdiscord\Linker.class
+dev\xernas\mcdiscord\listeners\bukkit\JoinListener.class
