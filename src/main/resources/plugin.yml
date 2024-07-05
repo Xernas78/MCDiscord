@@ -6,3 +6,5 @@ load: STARTUP
 authors: [Xernas78]
 description: A Minecraft plugin to link discord members to your server
 website: xernas.dev
+depend:
+  - Vault

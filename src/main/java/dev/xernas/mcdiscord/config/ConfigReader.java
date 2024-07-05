@@ -13,6 +13,9 @@ public class ConfigReader {
         this.config = config;
     }
 
+    public boolean isJDAErrorsEnabled() {
+        return !config.getBoolean("disable-jda-errors");
+    }
     public String getToken() {
         return config.getString("bot.token");
     }
@@ -27,7 +30,7 @@ public class ConfigReader {
         if (roles == null) {
             return null;
         }
-        AtomicReference<String> role = new AtomicReference<>("");
+        AtomicReference<String> role = new AtomicReference<>(null);
         roles.getValues(false).forEach((string, o) -> {
             if (o.equals(roleId)) {
                 role.set(string);

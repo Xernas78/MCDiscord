@@ -1,3 +1,4 @@
+disable-jda-errors: false
 bot:
   server-id: 0
   token: ""
